@@ -1,0 +1,46 @@
+header, nav, .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+header {
+    background-color: rgba(229, 255, 142, 0.748);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+.logo {
+    gap: 15px;
+}
+
+.logo_text {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.logo_img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+nav {
+    gap: 15px;
+}
+
+.nav_item {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bolder;
+    color: black;
+    padding: 10px;
+}
+
+.active {
+    font-weight: bold;
+    background-color: rgba(195, 219, 119, 0.748);
+
+}
