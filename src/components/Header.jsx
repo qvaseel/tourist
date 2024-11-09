@@ -10,7 +10,7 @@ const Header = () => {
         <p className="logo_text">Админ-панель</p>
       </div>
       <nav>
-        <NavLink className="nav_item" to="/clients" >Клиенты</NavLink>
+        <NavLink className="nav_item" to="/" >Клиенты</NavLink>
         <NavLink className="nav_item" to="/tours">Туры</NavLink>
         <NavLink className="nav_item" to="/excursions">Экскурсии</NavLink>
       </nav>
